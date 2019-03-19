@@ -3,7 +3,7 @@ ENV PATH="/root/.dotnet/tools:${PATH}"
 RUN dotnet tool install -g dotnet-nuget-sources
 
 # Setup Node
-ENV NODE_VERSION 8.9.4
+ENV NODE_VERSION 10.15.3
 ENV NODE_DOWNLOAD_SHA 21fb4690e349f82d708ae766def01d7fec1b085ce1f5ab30d9bda8ee126ca8fc
 
 RUN curl -SL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.gz" --output nodejs.tar.gz \

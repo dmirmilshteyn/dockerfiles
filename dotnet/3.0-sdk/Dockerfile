@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0.100-preview6
 ENV PATH="/root/.dotnet/tools:${PATH}"
 RUN dotnet tool install -g dotnet-nuget-sources
 
